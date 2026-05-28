@@ -80,7 +80,7 @@
     }
 
     h1 {
-      font-size: clamp(2.25rem, 5.5vw, 3.85rem);
+      font-size: clamp(1.75rem, 7vw, 3.85rem);
       line-height: 1.15;
       font-weight: 800;
       letter-spacing: -0.03em;
@@ -263,6 +263,8 @@
     .badge {
       display: inline-flex;
       align-items: center;
+      white-space: normal;
+      text-align: center;
       padding: 4px 10px;
       border: 1px solid var(--border-color);
       font-size: 0.65rem;
@@ -684,6 +686,8 @@
 
     .hero-trust-line {
       display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
       align-items: center;
       gap: 10px;
       font-family: var(--font-mono);
@@ -2024,6 +2028,22 @@
         text-align: center;
         gap: 12px;
         padding-top: 24px;
+      }
+
+      /* Mobile responsiveness enhancements */
+      .floating-badge {
+        display: none !important;
+      }
+
+      .hero-trust-line {
+        flex-direction: column;
+        align-items: center;
+        gap: 6px;
+        padding: 12px;
+      }
+
+      .hero-trust-line [aria-hidden="true"] {
+        display: none !important;
       }
     }
 
