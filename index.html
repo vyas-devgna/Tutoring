@@ -1,0 +1,603 @@
+<!--
+CUSTOMIZE BEFORE GOING LIVE:
+1. Replace the Formspree endpoint with Devgna’s actual Formspree form ID.
+2. Replace testimonial placeholders with real student feedback.
+3. Replace placeholder social links if social profiles are added.
+4. Replace og-image.webp with a final branded preview image.
+5. Verify WhatsApp number and email before publishing.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Programming & Exam Prep — Devgna Vyas</title>
+  <meta name="description" content="Affordable online programming classes and exam cracking sessions for college students. First class free. Book on WhatsApp.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#5b4fcf">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="Online Programming & Exam Prep — Devgna Vyas">
+  <meta property="og:description" content="Beginner-friendly online programming classes and exam preparation sessions. First class free.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://devgnavyas.github.io/Tutoring/">
+  <meta property="og:image" content="./assets/images/og-image.webp">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg">
+
+  <!-- Google Fonts Preconnect and Links for Performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" font-display="swap">
+
+  <!-- Font Awesome Free Icon CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <!-- Modular Stylesheet Bundle (Imports other CSS sheets in sequence) -->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+
+  <!-- Main JavaScript Module -->
+  <script type="module" src="./assets/js/main.js" defer></script>
+</head>
+<body>
+  <!-- Accessibility Skip to Content Link -->
+  <a href="#main-content" class="skip-link">Skip to Content</a>
+
+  <div class="app-container">
+    <!-- Header Landmark -->
+    <header class="navbar">
+      <div class="container nav-container">
+        <!-- Logo -->
+        <a href="#" class="nav-logo" aria-label="Devgna Vyas Tutoring Homepage">
+          <div class="nav-logo-dot" aria-hidden="true"></div>
+          <span>Devgna Vyas</span>
+        </a>
+
+        <!-- Desktop Navigation Center Links -->
+        <nav class="nav-links" aria-label="Desktop Navigation">
+          <a href="#what-you-get" class="nav-link">What You Get</a>
+          <a href="#pricing" class="nav-link">Pricing</a>
+          <a href="#exam-sessions" class="nav-link">Exam Sessions</a>
+          <a href="#referral" class="nav-link">Referral</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <!-- Desktop Navigation CTA -->
+        <div class="nav-cta">
+          <a href="#contact" class="btn btn-primary">Book Free Class</a>
+        </div>
+
+        <!-- Hamburger Icon for Mobile Menu -->
+        <button class="hamburger" aria-label="Toggle mobile menu" aria-controls="mobile-navigation" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+      </div>
+
+      <!-- Slide-down Mobile Navigation Overlay -->
+      <nav id="mobile-navigation" class="mobile-nav-overlay" aria-label="Mobile Navigation">
+        <a href="#what-you-get" class="nav-link">What You Get</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+        <a href="#exam-sessions" class="nav-link">Exam Sessions</a>
+        <a href="#referral" class="nav-link">Referral</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="#contact" class="btn btn-primary" style="margin-top: 12px; width: 80%;">Book Free Class</a>
+      </nav>
+    </header>
+
+    <!-- Main Content Landmark -->
+    <main id="main-content">
+      
+      <!-- SECTION 1: HERO -->
+      <section class="section hero-section" id="hero">
+        <div class="container hero-grid grid grid-2">
+          <!-- Hero Copy Column (60% width on Desktop) -->
+          <div class="hero-content">
+            <span class="badge badge-primary" style="margin-bottom: 16px;">Online Tutoring for College Students</span>
+            <h1 class="hero-title">
+              Learn to Code.<br>Crack Your Exams.
+            </h1>
+            <p class="body-large" style="margin-top: 18px; margin-bottom: 32px; max-width: 580px;">
+              Beginner-friendly online sessions in programming and exam preparation. Clear explanations, practical examples, notes, and doubt support included.
+            </p>
+            <div class="hero-buttons">
+              <a href="#contact" class="btn btn-primary btn-large">Book Free Class</a>
+              <a href="#pricing" class="btn btn-outline btn-large">View Pricing</a>
+            </div>
+            <!-- Trust Line with check icons -->
+            <div class="hero-trust-list" style="margin-top: 36px; display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
+              <span style="font-size: 0.875rem; color: var(--color-text-secondary); display: inline-flex; align-items: center; gap: 8px;">
+                <i class="fas fa-check" aria-hidden="true" style="color: var(--color-success);"></i> First class is free
+              </span>
+              <span style="font-size: 0.875rem; color: var(--color-text-secondary); display: inline-flex; align-items: center; gap: 8px;">
+                <i class="fas fa-check" aria-hidden="true" style="color: var(--color-success);"></i> Sessions on Google Meet
+              </span>
+              <span style="font-size: 0.875rem; color: var(--color-text-secondary); display: inline-flex; align-items: center; gap: 8px;">
+                <i class="fas fa-check" aria-hidden="true" style="color: var(--color-success);"></i> Notes included
+              </span>
+            </div>
+          </div>
+
+          <!-- Hero Illustration Column (40% width on Desktop) -->
+          <div class="hero-visual" aria-hidden="true">
+            <img src="./assets/images/hero-code-illustration.svg" alt="Mockup of a syntax highlighted code editor panel featuring structured computer programming lessons" style="width: 100%;" class="fade-in-section">
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2: TRUST STRIP -->
+      <section class="section trust-strip" id="trust-strip" style="background-color: #f0eeff; padding-top: 24px; padding-bottom: 24px; border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border);">
+        <div class="container trust-strip-container" style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;">
+          <!-- Signal 1 -->
+          <div class="trust-item" style="display: inline-flex; align-items: center; gap: 12px; position: relative;">
+            <i class="fas fa-award" aria-hidden="true" style="color: var(--color-primary); font-size: 1.25rem;"></i>
+            <span style="font-size: 0.95rem; font-weight: 600; color: var(--color-text-secondary);">Published Research — Springer CCIS 2025</span>
+          </div>
+          <!-- Signal 2 -->
+          <div class="trust-item" style="display: inline-flex; align-items: center; gap: 12px; position: relative;">
+            <i class="fas fa-laptop-code" aria-hidden="true" style="color: var(--color-primary); font-size: 1.25rem;"></i>
+            <span style="font-size: 0.95rem; font-weight: 600; color: var(--color-text-secondary);">Practical, Project-Based Learning</span>
+          </div>
+          <!-- Signal 3 -->
+          <div class="trust-item" style="display: inline-flex; align-items: center; gap: 12px;">
+            <i class="fas fa-comment-dots" aria-hidden="true" style="color: var(--color-primary); font-size: 1.25rem;"></i>
+            <span style="font-size: 0.95rem; font-weight: 600; color: var(--color-text-secondary);">Real Doubt Support, Not Just Theory</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 3: WHAT YOU GET -->
+      <section class="section fade-in-section" id="what-you-get">
+        <div class="container text-center">
+          <span class="section-tagline">Why Learn With Me</span>
+          <h2 class="section-title">What You Get</h2>
+          <p class="section-subtitle">Everything you need to master concepts, build confidence, and get high grades in your courses.</p>
+          
+          <div class="grid what-you-get-grid" style="margin-top: 16px;">
+            <!-- Card 1 -->
+            <div class="card card-surface">
+              <div style="font-size: 1.75rem; color: var(--color-primary); margin-bottom: 16px;"><i class="fas fa-video" aria-hidden="true"></i></div>
+              <h3 style="font-family: var(--font-heading); font-size: 1.15rem; font-weight: 700; margin-bottom: 8px;">Live Sessions</h3>
+              <p style="font-size: 0.875rem; color: var(--color-text-secondary);">Interactive 1-on-1 or small group lessons on Google Meet.</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="card card-surface">
+              <div style="font-size: 1.75rem; color: var(--color-primary); margin-bottom: 16px;"><i class="fas fa-file-invoice" aria-hidden="true"></i></div>
+              <h3 style="font-family: var(--font-heading); font-size: 1.15rem; font-weight: 700; margin-bottom: 8px;">Notes Included</h3>
+              <p style="font-size: 0.875rem; color: var(--color-text-secondary);">Concise revision notes and code summaries after every class.</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="card card-surface">
+              <div style="font-size: 1.75rem; color: var(--color-primary); margin-bottom: 16px;"><i class="fas fa-clipboard-question" aria-hidden="true"></i></div>
+              <h3 style="font-family: var(--font-heading); font-size: 1.15rem; font-weight: 700; margin-bottom: 8px;">PYQ Practice</h3>
+              <p style="font-size: 0.875rem; color: var(--color-text-secondary);">Practice with Previous Year Questions and common exam structures.</p>
+            </div>
+            <!-- Card 4 -->
+            <div class="card card-surface">
+              <div style="font-size: 1.75rem; color: var(--color-primary); margin-bottom: 16px;"><i class="fas fa-comments" aria-hidden="true"></i></div>
+              <h3 style="font-family: var(--font-heading); font-size: 1.15rem; font-weight: 700; margin-bottom: 8px;">Doubt Support</h3>
+              <p style="font-size: 0.875rem; color: var(--color-text-secondary);">Fast replies on WhatsApp to resolve blocks or setup errors.</p>
+            </div>
+            <!-- Card 5 -->
+            <div class="card card-surface">
+              <div style="font-size: 1.75rem; color: var(--color-primary); margin-bottom: 16px;"><i class="fas fa-clock" aria-hidden="true"></i></div>
+              <h3 style="font-family: var(--font-heading); font-size: 1.15rem; font-weight: 700; margin-bottom: 8px;">Flexible Timing</h3>
+              <p style="font-size: 0.875rem; color: var(--color-text-secondary);">Convenient evening schedules perfectly suited to college routines.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 4: PROGRAMMING PACKAGES -->
+      <section class="section fade-in-section card-surface" id="pricing">
+        <div class="container text-center">
+          <span class="section-tagline">Academic Packages</span>
+          <h2 class="section-title">Programming Packages</h2>
+          <p class="section-subtitle" style="margin-bottom: 24px;">3 sessions/week · 1 hour each · 5–8 PM flexible timing</p>
+          
+          <!-- Pricing Toggle -->
+          <div class="pricing-toggle-container">
+            <span id="toggle-label-monthly" class="toggle-label active">Monthly</span>
+            <label class="pricing-switch" for="pricing-billing-switch">
+              <input type="checkbox" id="pricing-billing-switch" aria-label="Toggle between monthly and semester billing highlights">
+              <span class="slider"></span>
+            </label>
+            <span id="toggle-label-semester" class="toggle-label">Semester</span>
+          </div>
+
+          <!-- Cards Layout (Side by side on desktop, stacked on mobile) -->
+          <div class="grid grid-2" style="max-width: 980px; margin-left: auto; margin-right: auto; text-align: left;">
+            
+            <!-- Card 1: Basics Package -->
+            <div class="card" style="background: white;">
+              <span class="badge badge-success" style="margin-bottom: 12px;">Just ₹50/day</span>
+              <h3 style="font-family: var(--font-heading); font-size: 1.5rem; font-weight: 700; color: var(--color-text); margin-bottom: 4px;">Basics Package</h3>
+              <p style="font-size: 0.95rem; color: var(--color-text-secondary); margin-bottom: 24px;">C + Programming Fundamentals</p>
+              
+              <!-- Pricing Grid 1 (Custom Table structure) -->
+              <div class="table-responsive-container">
+                <div class="pricing-table-grid highlight-col-monthly">
+                  <!-- Row 1: Headers -->
+                  <div class="pricing-header-cell">Plan</div>
+                  <div class="pricing-header-cell">Monthly</div>
+                  <div class="pricing-header-cell">Semester</div>
+                  <div class="pricing-header-cell">Save</div>
+                  
+                  <!-- Row 2: 1-on-1 -->
+                  <div class="pricing-row">
+                    <div class="pricing-cell cell-highlight">1-on-1</div>
+                    <div class="pricing-cell">₹1,500/mo</div>
+                    <div class="pricing-cell">₹4,000</div>
+                    <div class="pricing-cell cell-save">Save ₹500</div>
+                  </div>
+                  
+                  <!-- Row 3: 2 Students -->
+                  <div class="pricing-row">
+                    <div class="pricing-cell cell-highlight">2 students</div>
+                    <div class="pricing-cell">₹1,000/person/mo</div>
+                    <div class="pricing-cell">₹2,700/person</div>
+                    <div class="pricing-cell cell-save">Save ₹300</div>
+                  </div>
+                  
+                  <!-- Row 4: 3+ Students -->
+                  <div class="pricing-row">
+                    <div class="pricing-cell cell-highlight">3+ students</div>
+                    <div class="pricing-cell">₹800/person/mo</div>
+                    <div class="pricing-cell">₹2,100/person</div>
+                    <div class="pricing-cell cell-save">Save ₹300</div>
+                  </div>
+                </div>
+              </div>
+              
+              <span class="pricing-note"><i class="far fa-calendar-check" aria-hidden="true" style="margin-right: 6px; color: var(--color-primary);"></i> 12 sessions/month · Notes · Doubt support included</span>
+            </div>
+
+            <!-- Card 2: Advanced Package -->
+            <div class="card card-popular" style="background: white;">
+              <span class="badge badge-primary popular-badge">Most Popular</span>
+              <span class="badge badge-success" style="margin-bottom: 12px; display: inline-block;">Less than ₹120/day</span>
+              <h3 style="font-family: var(--font-heading); font-size: 1.5rem; font-weight: 700; color: var(--color-text); margin-bottom: 4px;">Advanced Package</h3>
+              <p style="font-size: 0.95rem; color: var(--color-text-secondary); margin-bottom: 24px;">Java or Python + DSA + Projects</p>
+              
+              <!-- Pricing Grid 2 (Custom Table structure) -->
+              <div class="table-responsive-container">
+                <div class="pricing-table-grid highlight-col-monthly">
+                  <!-- Row 1: Headers -->
+                  <div class="pricing-header-cell">Plan</div>
+                  <div class="pricing-header-cell">Monthly</div>
+                  <div class="pricing-header-cell">Semester</div>
+                  <div class="pricing-header-cell">Save</div>
+                  
+                  <!-- Row 2: 1-on-1 -->
+                  <div class="pricing-row">
+                    <div class="pricing-cell cell-highlight">1-on-1</div>
+                    <div class="pricing-cell">₹3,500/mo</div>
+                    <div class="pricing-cell">₹9,500</div>
+                    <div class="pricing-cell cell-save">Save ₹1,000</div>
+                  </div>
+                  
+                  <!-- Row 3: 2 Students -->
+                  <div class="pricing-row">
+                    <div class="pricing-cell cell-highlight">2 students</div>
+                    <div class="pricing-cell">₹2,500/person/mo</div>
+                    <div class="pricing-cell">₹7,000/person</div>
+                    <div class="pricing-cell cell-save">Save ₹500</div>
+                  </div>
+                  
+                  <!-- Row 4: 3+ Students -->
+                  <div class="pricing-row">
+                    <div class="pricing-cell cell-highlight">3+ students</div>
+                    <div class="pricing-cell">₹2,000/person/mo</div>
+                    <div class="pricing-cell">₹5,500/person</div>
+                    <div class="pricing-cell cell-save">Save ₹500</div>
+                  </div>
+                </div>
+              </div>
+              
+              <span class="pricing-note"><i class="far fa-star" aria-hidden="true" style="margin-right: 6px; color: #fbbf24;"></i> Resume-ready projects included · 12 sessions/month</span>
+            </div>
+
+          </div>
+
+          <!-- Bottom Notice callout box -->
+          <div class="callout-box" style="max-width: 980px; margin-left: auto; margin-right: auto; text-align: left;">
+            <i class="fas fa-circle-exclamation" aria-hidden="true"></i>
+            <span>Limited to <strong>3 active batches</strong> at a time. Book early to secure your slot.</span>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- SECTION 5: EXAM CRACKING SESSIONS -->
+      <section class="section fade-in-section" id="exam-sessions">
+        <div class="container text-center">
+          <span class="section-tagline">On-Demand Cracking</span>
+          <h2 class="section-title">Exam Cracking Sessions</h2>
+          <p class="section-subtitle">Theory · Practicals · Viva · PYQs · Important Questions · Quick Revision</p>
+          
+          <!-- Custom CSS Grid Table for sessions (No HTML table markup) -->
+          <div class="table-responsive-container" style="max-width: 900px; margin-left: auto; margin-right: auto; margin-top: 16px;">
+            <div class="sessions-table-grid">
+              <!-- Header Row -->
+              <div class="sessions-header">Duration</div>
+              <div class="sessions-header">Solo</div>
+              <div class="sessions-header">2 Students</div>
+              <div class="sessions-header">3–5 Students</div>
+              
+              <!-- Data Row 1 (1 Hour) -->
+              <div class="sessions-row">
+                <div class="sessions-cell" style="font-weight: 600; color: var(--color-text);">1 Hour</div>
+                <div class="sessions-cell" style="font-weight: 600; color: var(--color-primary);">₹350</div>
+                <div class="sessions-cell">₹200<span style="font-size:0.8rem; color:var(--color-text-muted);">/person</span></div>
+                <div class="sessions-cell">₹150<span style="font-size:0.8rem; color:var(--color-text-muted);">/person</span></div>
+              </div>
+              
+              <!-- Data Row 2 (2 Hours) -->
+              <div class="sessions-row">
+                <div class="sessions-cell" style="font-weight: 600; color: var(--color-text);">2 Hours</div>
+                <div class="sessions-cell" style="font-weight: 600; color: var(--color-primary);">₹700</div>
+                <div class="sessions-cell">₹380<span style="font-size:0.8rem; color:var(--color-text-muted);">/person</span></div>
+                <div class="sessions-cell">₹270<span style="font-size:0.8rem; color:var(--color-text-muted);">/person</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Referral / Value Callout below table -->
+          <div class="callout-box callout-box-green" style="max-width: 900px; margin-left: auto; margin-right: auto; text-align: left;">
+            <i class="fas fa-check-circle" aria-hidden="true"></i>
+            <span>Bring 4 friends to a 2-hour session — each of you pays just <strong>₹270</strong> instead of ₹700.</span>
+          </div>
+
+          <p style="font-size: 0.875rem; color: var(--color-text-muted); margin-top: 16px;">
+            <i class="fas fa-piggy-bank" aria-hidden="true" style="margin-right: 6px; color: var(--color-success);"></i>
+            Already enrolled in a programming package? You get <strong>₹50 off</strong> every exam session, automatically.
+          </p>
+
+        </div>
+      </section>
+
+      <!-- SECTION 6: FREE FIRST CLASS BANNER -->
+      <section class="section banner-section" id="free-class-banner" style="background: linear-gradient(135deg, #eef2ff, #f5f0ff); border-top: 1px solid var(--color-border); border-bottom: 1px solid var(--color-border); padding: 60px 0;">
+        <div class="container text-center">
+          <h2 class="hero-title" style="font-size: clamp(2rem, 5vw, 2.75rem); line-height: 1.2; margin-bottom: 12px;">Your first class is completely free.</h2>
+          <p class="body-large" style="max-width: 600px; margin-left: auto; margin-right: auto; margin-bottom: 32px; color: var(--color-text-secondary);">
+            No payment. No commitment. Just show up and see if it clicks.
+          </p>
+          <a href="#contact" class="btn btn-primary btn-large">Claim Your Free Class</a>
+        </div>
+      </section>
+
+      <!-- SECTION 7: REFERRAL -->
+      <section class="section fade-in-section" id="referral">
+        <div class="container">
+          <div class="card" style="max-width: 900px; margin-left: auto; margin-right: auto; padding: 40px 32px;">
+            <div class="grid grid-2" style="align-items: center; gap: 32px;">
+              <!-- Left side icon column (Centered vertically, prominent but minimal) -->
+              <div class="flex-center" style="font-size: 4.5rem; color: var(--color-primary); filter: drop-shadow(0 4px 12px rgba(91,79,207,0.15));" aria-hidden="true">
+                <i class="fas fa-user-plus"></i>
+              </div>
+              
+              <!-- Right side text column -->
+              <div>
+                <span class="badge badge-primary" style="margin-bottom: 12px;">Referral Program</span>
+                <h3 style="font-family: var(--font-heading); font-size: 1.85rem; font-weight: 700; color: var(--color-text); margin-bottom: 12px;">Refer a Friend</h3>
+                <p style="font-size: 1rem; color: var(--color-text-secondary); line-height: 1.6;">
+                  Get a friend to join any package and <strong>both of you get ₹100 off</strong> your next month. No forms, no complicated conditions.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 8: TESTIMONIALS PLACEHOLDER -->
+      <section class="section fade-in-section card-surface" id="testimonials">
+        <div class="container text-center">
+          <span class="section-tagline">Student Reviews</span>
+          <h2 class="section-title">What Students Say</h2>
+          <p class="section-subtitle">Real feedback from sessions conducted over the past semesters.</p>
+          
+          <!-- TESTIMONIALS: Replace placeholder cards with real student feedback -->
+          <div class="grid grid-3" style="max-width: 1080px; margin-left: auto; margin-right: auto; margin-top: 16px;">
+            <!-- Placeholder Card 1 -->
+            <div class="testimonial-card-placeholder">
+              <div class="stars-container" aria-label="5 stars rating">
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+              </div>
+              <p class="testimonial-text">"Testimonial coming soon..."</p>
+              <span class="testimonial-author">— Student name, Course</span>
+            </div>
+
+            <!-- Placeholder Card 2 -->
+            <div class="testimonial-card-placeholder">
+              <div class="stars-container" aria-label="5 stars rating">
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+              </div>
+              <p class="testimonial-text">"Testimonial coming soon..."</p>
+              <span class="testimonial-author">— Student name, Course</span>
+            </div>
+
+            <!-- Placeholder Card 3 -->
+            <div class="testimonial-card-placeholder">
+              <div class="stars-container" aria-label="5 stars rating">
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+                <i class="fas fa-star" aria-hidden="true"></i>
+              </div>
+              <p class="testimonial-text">"Testimonial coming soon..."</p>
+              <span class="testimonial-author">— Student name, Course</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 9: BOOK A SESSION CONTACT FORM -->
+      <section class="section fade-in-section" id="contact">
+        <div class="container text-center">
+          <span class="section-tagline">Secure Your Slot</span>
+          <h2 class="section-title">Book Your Free Class</h2>
+          <p class="section-subtitle">Fill in your details and I will get back to you within a few hours.</p>
+
+          <!-- Contact Form Wrapper Card -->
+          <div class="card form-card">
+            
+            <!-- Replace REPLACE_WITH_FORMSPREE_ID with your actual Formspree endpoint after signing up at formspree.io with vyasdevgna@gmail.com -->
+            <form id="enquiry-form" action="https://formspree.io/f/REPLACE_WITH_FORMSPREE_ID" method="POST" novalidate>
+              
+              <!-- 1. Full Name -->
+              <div class="form-group">
+                <label for="form-name" class="form-label">Full Name *</label>
+                <input type="text" id="form-name" name="name" class="form-input" placeholder="Your full name" required>
+                <span class="error-message" id="name-error" aria-live="polite"></span>
+              </div>
+
+              <!-- 2. WhatsApp Number -->
+              <div class="form-group">
+                <label for="form-whatsapp" class="form-label">WhatsApp Number *</label>
+                <input type="tel" id="form-whatsapp" name="whatsapp" class="form-input" placeholder="10-digit number" required>
+                <span class="error-message" id="whatsapp-error" aria-live="polite"></span>
+              </div>
+
+              <!-- 3. Email Address -->
+              <div class="form-group">
+                <label for="form-email" class="form-label">Email Address *</label>
+                <input type="email" id="form-email" name="email" class="form-input" placeholder="you@domain.com" required>
+                <span class="error-message" id="email-error" aria-live="polite"></span>
+              </div>
+
+              <!-- 4. I am interested in -->
+              <div class="form-group">
+                <label for="form-interest" class="form-label">I am interested in *</label>
+                <select id="form-interest" name="interest" class="form-select" required>
+                  <option value="" disabled selected>Select a package or session type</option>
+                  <option value="Basics Package — C + Fundamentals">Basics Package — C + Fundamentals</option>
+                  <option value="Advanced Package — Java/Python + DSA">Advanced Package — Java/Python + DSA</option>
+                  <option value="Exam Cracking Session">Exam Cracking Session</option>
+                  <option value="Not sure yet">Not sure yet</option>
+                </select>
+                <span class="error-message" id="interest-error" aria-live="polite"></span>
+              </div>
+
+              <!-- 5. Preferred session type (Radios) -->
+              <div class="form-group">
+                <span id="session-type-label" class="form-label">Preferred session type *</span>
+                <div class="radio-group" role="radiogroup" aria-labelledby="session-type-label">
+                  <!-- Radio 1 -->
+                  <label class="radio-option">
+                    <input type="radio" name="preferred_session" value="1-on-1" required>
+                    <span class="radio-text">1-on-1 Session</span>
+                  </label>
+                  <!-- Radio 2 -->
+                  <label class="radio-option">
+                    <input type="radio" name="preferred_session" value="Joining with friends" required>
+                    <span class="radio-text">Joining with friends</span>
+                  </label>
+                </div>
+                <span class="error-message" id="session-error" aria-live="polite" style="margin-top: 10px;"></span>
+              </div>
+
+              <!-- 6. Anything you want to ask? (Textarea) -->
+              <div class="form-group" style="margin-bottom: 32px;">
+                <label for="form-message" class="form-label">Anything you want to ask? (Optional)</label>
+                <textarea id="form-message" name="message" class="form-textarea" rows="4" placeholder="Any specific requirements, programming background, or doubts you want to mention..."></textarea>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-primary btn-large" style="width: 100%;">
+                Send Enquiry <i class="fas fa-arrow-right" aria-hidden="true" style="margin-left: 6px;"></i>
+              </button>
+
+            </form>
+
+            <!-- Submission Success Card (Initially Hidden) -->
+            <div id="success-card" class="success-card" role="alert">
+              <div class="success-icon-container">
+                <i class="fas fa-circle-check" aria-hidden="true"></i>
+              </div>
+              <h3 class="success-title">Enquiry Sent!</h3>
+              <p class="success-desc">
+                Got it! I will reach out to you on WhatsApp within a few hours. Talk soon.
+              </p>
+              <a href="#" onclick="window.location.reload(); return false;" class="btn btn-outline" style="min-height: 40px; padding: 8px 20px;">Submit Another Enquiry</a>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- FLOATING WHATSAPP BUTTON (Always visible) -->
+    <a href="https://wa.me/919510292044?text=Hi%20Devgna!%20I%20am%20interested%20in%20your%20online%20classes." 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       class="whatsapp-floating" 
+       aria-label="Chat on WhatsApp with tutor Devgna Vyas">
+      <i class="fab fa-whatsapp" aria-hidden="true"></i>
+      <span class="whatsapp-tooltip">Chat on WhatsApp</span>
+    </a>
+
+    <!-- Footer Landmark -->
+    <footer class="section" style="background-color: var(--color-footer); color: white; padding-bottom: 24px; border-top: 2px solid var(--color-primary);">
+      <div class="container">
+        <div class="grid footer-grid" style="padding-bottom: 48px; border-bottom: 1px solid rgba(255, 255, 255, 0.1);">
+          <!-- Left Column -->
+          <div>
+            <div class="footer-logo" style="display: flex; align-items: center; gap: 8px; font-family: var(--font-heading); font-size: 1.25rem; font-weight: 700; margin-bottom: 12px;">
+              <div class="nav-logo-dot" aria-hidden="true"></div>
+              <span>Devgna Vyas</span>
+            </div>
+            <p style="font-size: 0.9rem; color: var(--color-text-muted); line-height: 1.6; max-width: 280px;">
+              Premium online computer programming & exam cracking sessions tailored for college students.
+            </p>
+          </div>
+
+          <!-- Center Column (Quick Links) -->
+          <div class="footer-links" style="display: flex; flex-direction: column; gap: 12px; font-size: 0.95rem;">
+            <strong style="color: white; font-family: var(--font-heading); margin-bottom: 4px;">Quick Links</strong>
+            <a href="#pricing" style="color: var(--color-text-muted); transition: color var(--transition-fast);" onmouseover="this.style.color='white'" onmouseout="this.style.color='#9090aa'">Pricing Packages</a>
+            <a href="#exam-sessions" style="color: var(--color-text-muted); transition: color var(--transition-fast);" onmouseover="this.style.color='white'" onmouseout="this.style.color='#9090aa'">Exam Sessions</a>
+            <a href="#contact" style="color: var(--color-text-muted); transition: color var(--transition-fast);" onmouseover="this.style.color='white'" onmouseout="this.style.color='#9090aa'">Book Free Class</a>
+          </div>
+
+          <!-- Right Column (Contact Info) -->
+          <div class="footer-contact" style="display: flex; flex-direction: column; gap: 12px; font-size: 0.95rem;">
+            <strong style="color: white; font-family: var(--font-heading); margin-bottom: 4px;">Contact</strong>
+            <span style="color: var(--color-text-muted); display: inline-flex; align-items: center; gap: 8px;">
+              <i class="fas fa-phone" aria-hidden="true" style="color: var(--color-primary); width: 16px;"></i> +91 95102 92044
+            </span>
+            <a href="mailto:vyasdevgna@gmail.com" style="color: var(--color-text-muted); display: inline-flex; align-items: center; gap: 8px; transition: color var(--transition-fast);" onmouseover="this.style.color='white'" onmouseout="this.style.color='#9090aa'">
+              <i class="fas fa-envelope" aria-hidden="true" style="color: var(--color-primary); width: 16px;"></i> vyasdevgna@gmail.com
+            </a>
+            <a href="https://wa.me/919510292044?text=Hi%20Devgna!%20I%20am%20interested%20in%20your%20online%20classes." 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               style="color: var(--color-text-muted); display: inline-flex; align-items: center; gap: 8px; transition: color var(--transition-fast);"
+               onmouseover="this.style.color='white'" 
+               onmouseout="this.style.color='#9090aa'">
+              <i class="fab fa-whatsapp" aria-hidden="true" style="color: var(--color-whatsapp); width: 16px;"></i> Message on WhatsApp
+            </a>
+          </div>
+        </div>
+
+        <!-- Bottom strip -->
+        <div class="footer-bottom" style="display: flex; justify-content: space-between; align-items: center; padding-top: 24px; font-size: 0.85rem; color: var(--color-text-muted);">
+          <span>Sessions conducted on Google Meet</span>
+          <span>&copy; 2026 Devgna Vyas. All rights reserved.</span>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
