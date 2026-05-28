@@ -275,6 +275,7 @@
       font-family: var(--font-mono);
       text-transform: uppercase;
       border-radius: 4px;
+      max-width: 100%;
     }
 
     .badge-accent {
@@ -854,6 +855,9 @@
       white-space: pre-wrap;
       position: relative;
       z-index: 2;
+      min-width: 0;
+      max-width: 100%;
+      overflow-x: auto;
     }
 
     .editor-code-block {
